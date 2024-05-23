@@ -1,0 +1,34 @@
+margins =  space around an element
+
+<!DOCTYPE html>
+<html>
+	
+<link rel="stylesheet" href="style.css">
+		<head>
+		<h1>Sujay Langade</h1>
+		<div class="box" id="box1">Box1</div>
+		<div class="box" id="box2">Box2</div>
+		</head>
+	</body>
+</html>
+
+style.css
+
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: rgb(253, 64, 64);
+    margin: auto;
+}
+#box2{
+    background-color: rgb(64, 244, 253);
+    margin-top: 50px;
+    }
+
